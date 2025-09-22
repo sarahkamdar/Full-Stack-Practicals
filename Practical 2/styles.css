@@ -1,0 +1,41 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d73027;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+h1 {
+    color: black;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+#cityInput {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+}
+
+#getWeatherBtn {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: white;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+#getWeatherBtn:hover {
+    background-color: #f0f0f0;
+}
+
+#weatherResult {
+    margin-top: 30px;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+}

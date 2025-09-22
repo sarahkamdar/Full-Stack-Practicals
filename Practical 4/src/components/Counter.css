@@ -1,0 +1,62 @@
+.counter-container {
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  margin-bottom: 30px;
+}
+
+.name-inputs {
+  margin: 20px 0;
+}
+
+.name-inputs div {
+  margin: 10px 0;
+}
+
+.name-inputs label {
+  margin-right: 10px;
+}
+
+.name-inputs input {
+  padding: 5px;
+  width: 200px;
+}
+
+.name-display {
+  margin: 20px 0;
+}
+
+.name-display p {
+  margin: 5px 0;
+}
+
+.counter-value {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+button {
+  margin: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-40px);}
+  to { opacity: 1; transform: translateY(0);}
+}
+
+@keyframes popIn {
+  0% { transform: scale(0.6);}
+  80% { transform: scale(1.12);}
+  100% { transform: scale(1);}
+}
+
+@keyframes slideDown {
+  from { opacity: 0; transform: translateY(-30px);}
+  to { opacity: 1; transform: translateY(0);}
+}

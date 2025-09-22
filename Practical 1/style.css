@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f0f0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container {
+    background: white;
+    padding: 40px;
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 40px;
+    font-size: 2em;
+    font-weight: normal;
+}
+
+.poll-section {
+    margin-bottom: 40px;
+}
+
+.voting-buttons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.vote-btn {
+    background: #f8f8f8;
+    color: #333;
+    border: 2px solid #ddd;
+    padding: 12px 24px;
+    font-size: 1em;
+    cursor: pointer;
+    min-width: 100px;
+}
+
+.vote-btn:hover {
+    background: #e8e8e8;
+}
+
+.results-section {
+    margin-top: 40px;
+}
+
+.result-item {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+    color: #333;
+}
+
+.language {
+    display: inline;
+}
+
+.vote-count {
+    display: inline;
+    margin-left: 5px;
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+    .container {
+        padding: 20px;
+    }
+    
+    h1 {
+        font-size: 1.5em;
+    }
+    
+    .voting-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .vote-btn {
+        width: 100%;
+        max-width: 200px;
+    }
+}
