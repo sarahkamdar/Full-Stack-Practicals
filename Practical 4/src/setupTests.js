@@ -1,4 +1,4 @@
-// filepath: c:\Users\Mtl\Downloads\Study\5th Sem\Full Stack\counter-app\src\setupTests.js
+// filepath: c:\Users\Sarah Kamdar\Downloads\Study\5th Sem\Full Stack\counter-app\src\setupTests.js
 // jest-dom adds custom jest matchers for asserting on DOM nodes.
 // allows you to do things like:
 // expect(element).toHaveTextContent(/react/i)
